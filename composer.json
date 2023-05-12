@@ -1,0 +1,21 @@
+{
+    "name": "mohachi/session",
+    "description": "PHP Session Management Service",
+    "type": "lib",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mohachi\\Session\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohachi",
+            "email": "hachiassali15@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^10.2@dev"
+    }
+}
